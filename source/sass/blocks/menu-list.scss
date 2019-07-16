@@ -1,0 +1,20 @@
+.menu-list {
+  @include reset-list;
+
+  &__item {
+    color: #ffffff;
+    background-color: #81b3d2;
+    font-weight: 700;
+    min-height: 55px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 40px;
+    box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2),
+      inset 0px 1px 0 0 rgba(255, 255, 255, 0.2);
+  }
+
+  &__item a {
+    color: inherit;
+  }
+}
