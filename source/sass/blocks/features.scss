@@ -1,0 +1,34 @@
+.features {
+  &__items {
+    @include reset-list;
+  }
+
+  &__item-header {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+
+  &__item-number {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__item-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__item--blue {
+    background-color: #81b3d2;
+    color: #ffffff;
+  }
+
+  &__item--gray {
+    color: #333333;
+    background-color: #eeeeee;
+    h2 {
+      color: black;
+    }
+  }
+}
