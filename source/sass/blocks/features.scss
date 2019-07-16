@@ -27,8 +27,9 @@
   &__item--gray {
     color: #333333;
     background-color: #eeeeee;
-    h2 {
-      color: black;
-    }
+  }
+
+  &__item-header--black {
+    color: black;
   }
 }
