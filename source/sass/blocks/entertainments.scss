@@ -1,0 +1,16 @@
+.entertainments {
+  &__list {
+    @include reset-list;
+  }
+
+  &__item-header {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+
+  &__item-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
