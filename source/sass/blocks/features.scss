@@ -1,35 +1,33 @@
-.features {
-  &__items {
-    @include reset-list;
-  }
+.features__items {
+  @include reset-list;
+}
 
-  &__item-header {
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 700;
-  }
+.features__item-header {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
 
-  &__item-number {
-    font-size: 14px;
-    line-height: 21px;
-  }
+.features__item-number {
+  font-size: 14px;
+  line-height: 21px;
+}
 
-  &__item-description {
-    font-size: 14px;
-    line-height: 21px;
-  }
+.features__item-description {
+  font-size: 14px;
+  line-height: 21px;
+}
 
-  &__item--blue {
-    background-color: #81b3d2;
-    color: #ffffff;
-  }
+.features__item--blue {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
 
-  &__item--gray {
-    color: #333333;
-    background-color: #eeeeee;
-  }
+.features__item--gray {
+  color: #333333;
+  background-color: #eeeeee;
+}
 
-  &__item-header--black {
-    color: black;
-  }
+.features__item-header--black {
+  color: black;
 }
