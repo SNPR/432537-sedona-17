@@ -1,0 +1,11 @@
+.main-background {
+  width: 100%;
+  min-height: 300px;
+  background: #516069 url("../../img/bg-back-mobile@1x.jpg") no-repeat;
+
+  margin-bottom: 50px;
+
+  &--small {
+    min-height: 160px;
+  }
+}
