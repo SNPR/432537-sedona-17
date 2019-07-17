@@ -5,4 +5,8 @@
   background: url("../../img/bg-back-mobile@1x.jpg") no-repeat;
 
   margin-bottom: 50px;
+
+  &--small {
+    min-height: 160px;
+  }
 }
