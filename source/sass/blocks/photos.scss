@@ -1,0 +1,28 @@
+.photos {
+  &__items {
+    @include reset-list;
+  }
+
+  &__item {
+    border: 1px solid #fafafa;
+    min-height: 415px;
+  }
+
+  &__item-header {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  &__item-author {
+    text-transform: none;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__item-likes-amount {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+}
