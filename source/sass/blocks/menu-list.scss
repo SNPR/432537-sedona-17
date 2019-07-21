@@ -18,3 +18,17 @@
 .menu-list__item a {
   color: inherit;
 }
+
+@media (min-width: 768px) {
+  .menu-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-list__item {
+    margin-right: 40px;
+    background: none;
+    color: black;
+    box-shadow: none;
+  }
+}
