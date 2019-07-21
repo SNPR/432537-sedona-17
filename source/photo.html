@@ -6,130 +6,132 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="page-header">
-      <nav class="navigation">
-        <ul class="navigation__list menu-list">
-          <li class="menu-list__item">
-            <a href="index.html">Главная</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="">Фото и видео</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="form.html">Форма отзыва</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="https://htmlacademy.ru">HTML Academy</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="navigation__hamburger-button"></button>
-      <img
-        class="navigation__logo"
-        src="./img/logo-sedona-mobile.svg"
-        alt="Логотип города Седона"
-        width="102"
-        height="83"
-      />
-    </header>
-
-    <main class="main-content">
-      <section class="main-background main-background--small">
+    <div class="container">
+      <header class="page-header">
+        <nav class="navigation">
+          <ul class="navigation__list menu-list">
+            <li class="menu-list__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="">Фото и видео</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="form.html">Форма отзыва</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="https://htmlacademy.ru">HTML Academy</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="navigation__hamburger-button"></button>
         <img
-          class="main-background__slogan-image"
-          src="./img/text-sedona.svg"
-          alt="Приветственный слоган"
-          width="229"
-          height="39"
+          class="navigation__logo"
+          src="./img/logo-sedona-mobile.svg"
+          alt="Логотип города Седона"
+          width="102"
+          height="83"
         />
-      </section>
+      </header>
 
-      <section class="description">
-        <h2 class="description__header">
-          Фото и видео
-        </h2>
-        <p class="description__text">
-          Не можете решиться на путешествие из-за курса? Фотографии помогут
-          забыть вам о политеке и экономике
-        </p>
-      </section>
+      <main class="main-content">
+        <section class="main-background main-background--small">
+          <img
+            class="main-background__slogan-image"
+            src="./img/text-sedona.svg"
+            alt="Приветственный слоган"
+            width="229"
+            height="39"
+          />
+        </section>
 
-      <section class="photos">
-        <ul class="photos__items">
-          <li class="photos__item">
-            <img
-              class="photos__item-image"
-              src="./img/photo-sunset-mobile@1x.jpg"
-              alt="Фото трассы у города Седона"
-              width="280"
-              height="280"
-            />
-            <h3 class="photos__item-header">
-              Неродные просторы
-            </h3>
-            <span class="photos__item-author">Автор фото: Борис</span>
-            <p class="photos__item-likes-amount">1350</p>
-          </li>
+        <section class="description">
+          <h2 class="description__header">
+            Фото и видео
+          </h2>
+          <p class="description__text">
+            Не можете решиться на путешествие из-за курса? Фотографии помогут
+            забыть вам о политеке и экономике
+          </p>
+        </section>
 
-          <li class="photos__item">
-            <img
-              class="photos__item-image"
-              src="./img/photo-cactus-mobile@1x.jpg"
-              alt="Фото трассы у города Седона"
-              width="280"
-              height="280"
-            />
-            <h3 class="photos__item-header">
-              Местная растительность
-            </h3>
-            <span class="photos__item-author">Автор фото: Сергей</span>
-            <p class="photos__item-likes-amount">143</p>
-          </li>
+        <section class="photos">
+          <ul class="photos__items">
+            <li class="photos__item">
+              <img
+                class="photos__item-image"
+                src="./img/photo-sunset-mobile@1x.jpg"
+                alt="Фото трассы у города Седона"
+                width="280"
+                height="280"
+              />
+              <h3 class="photos__item-header">
+                Неродные просторы
+              </h3>
+              <span class="photos__item-author">Автор фото: Борис</span>
+              <p class="photos__item-likes-amount">1350</p>
+            </li>
 
-          <li class="photos__item">
-            <img
-              class="photos__item-image"
-              src="./img/photo-roads-mobile@1x.jpg"
-              alt="Фото трассы у города Седона"
-              width="280"
-              height="280"
-            />
-            <h3 class="photos__item-header">
-              Дорога на север
-            </h3>
-            <span class="photos__item-author">Автор фото: Пётр</span>
-            <p class="photos__item-likes-amount">96</p>
-          </li>
+            <li class="photos__item">
+              <img
+                class="photos__item-image"
+                src="./img/photo-cactus-mobile@1x.jpg"
+                alt="Фото трассы у города Седона"
+                width="280"
+                height="280"
+              />
+              <h3 class="photos__item-header">
+                Местная растительность
+              </h3>
+              <span class="photos__item-author">Автор фото: Сергей</span>
+              <p class="photos__item-likes-amount">143</p>
+            </li>
 
-          <li class="photos__item">
-            <img
-              class="photos__item-image"
-              src="./img/photo-bridge-mobile@1x.jpg"
-              alt="Фото трассы у города Седона"
-              width="280"
-              height="280"
-            />
-            <h3 class="photos__item-header">
-              Мост дьявола
-            </h3>
-            <span class="photos__item-author">Автор фото: Антон</span>
-            <p class="photos__item-likes-amount">254</p>
-          </li>
+            <li class="photos__item">
+              <img
+                class="photos__item-image"
+                src="./img/photo-roads-mobile@1x.jpg"
+                alt="Фото трассы у города Седона"
+                width="280"
+                height="280"
+              />
+              <h3 class="photos__item-header">
+                Дорога на север
+              </h3>
+              <span class="photos__item-author">Автор фото: Пётр</span>
+              <p class="photos__item-likes-amount">96</p>
+            </li>
+
+            <li class="photos__item">
+              <img
+                class="photos__item-image"
+                src="./img/photo-bridge-mobile@1x.jpg"
+                alt="Фото трассы у города Седона"
+                width="280"
+                height="280"
+              />
+              <h3 class="photos__item-header">
+                Мост дьявола
+              </h3>
+              <span class="photos__item-author">Автор фото: Антон</span>
+              <p class="photos__item-likes-amount">254</p>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="page-footer">
+        <p class="page-footer__hashtag">#VISITSEDONA</p>
+        <ul class="page-footer__social social-list">
+          <li class="social-list__item">Twitter</li>
+          <li class="social-list__item">Facebook</li>
+          <li class="social-list__item">YouTube</li>
         </ul>
-      </section>
-    </main>
 
-    <footer class="page-footer">
-      <p class="page-footer__hashtag">#VISITSEDONA</p>
-      <ul class="page-footer__social social-list">
-        <li class="social-list__item">Twitter</li>
-        <li class="social-list__item">Facebook</li>
-        <li class="social-list__item">YouTube</li>
-      </ul>
-
-      <div class="page-footer__copyright copyright">
-        <span class="copyright__text">Разработано</span>
-      </div>
-    </footer>
+        <div class="page-footer__copyright copyright">
+          <span class="copyright__text">Разработано</span>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
