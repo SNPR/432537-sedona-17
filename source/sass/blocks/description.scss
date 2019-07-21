@@ -1,10 +1,18 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
 .description__header {
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+  margin: 0 auto;
 }
 
 .description__text {
   font-size: 14px;
   line-height: 26px;
+  margin: 0 auto;
 }
