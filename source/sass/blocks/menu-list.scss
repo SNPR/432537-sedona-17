@@ -19,7 +19,7 @@
   color: inherit;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .menu-list {
     display: flex;
     justify-content: space-between;
