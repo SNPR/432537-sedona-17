@@ -7,3 +7,15 @@
   line-height: 26px;
   font-weight: 700;
 }
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .social-list__item {
+    margin-right: 10px;
+  }
+}

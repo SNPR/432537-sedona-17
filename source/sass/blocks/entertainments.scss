@@ -12,3 +12,24 @@
   font-size: 14px;
   line-height: 21px;
 }
+
+@media (min-width: $tablet-width) {
+  .entertainments__list {
+    display: flex;
+  }
+
+  .entertainments__item {
+    display: flex;
+    padding: 80px 20px;
+    flex-direction: column;
+    min-height: 330px;
+    align-items: center;
+    width: 256px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .entertainments__item {
+    width: 400px;
+  }
+}

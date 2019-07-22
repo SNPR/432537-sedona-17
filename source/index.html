@@ -2,159 +2,166 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="page-header">
-      <nav class="navigation">
-        <ul class="navigation__list menu-list">
-          <li class="menu-list__item">
-            <a href="">Главная</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="photo.html">Фото и видео</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="form.html">Форма отзыва</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="https://htmlacademy.ru">HTML Academy</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="navigation__hamburger-button"></button>
-      <img
-        class="navigation__logo"
-        src="./img/logo-sedona-mobile.svg"
-        alt="Логотип города Седона"
-        width="102"
-        height="83"
-      />
-    </header>
-
-    <main class="main-content">
-      <section class="main-background">
+    <div class="container">
+      <header class="page-header">
+        <nav class="navigation">
+          <ul class="navigation__list menu-list">
+            <li class="menu-list__item">
+              <a href="">Главная</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="photo.html">Фото и видео</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="form.html">Форма отзыва</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="https://htmlacademy.ru">HTML Academy</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="navigation__hamburger-button"></button>
         <img
-          class="main-background__slogan-image"
-          src="./img/text-sedona-index.svg"
-          alt="Приветственный слоган"
-          width="281"
-          height="214"
+          class="navigation__logo"
+          src="./img/logo-sedona-mobile.svg"
+          alt="Логотип города Седона"
+          width="102"
+          height="83"
         />
-      </section>
+      </header>
 
-      <section class="description">
-        <h2 class="description__header">
-          Седона — небольшой городок в Аризоне, заслуживающий большего!
-        </h2>
-        <p class="description__text">
-          Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
-        </p>
-      </section>
-
-      <section class="features">
-        <div class="features__item features__item--blue">
-          <h2 class="features__item-header">
-            Настоящий городок
-          </h2>
-          <span class="features__item-number">— №1 —</span>
-          <p class="features__item-description">
-            Седона не аттракцион для туристов, там течёт своя жизнь
-          </p>
+      <main class="main-content">
+        <section class="main-background">
           <img
-            class="features__item-image"
-            src="./img/main-city-mobile@1x.jpg"
-            alt="Фото кафе в городе Седона"
-            width="320"
-            height="260"
+            class="main-background__slogan-image"
+            src="./img/text-sedona-index.svg"
+            alt="Приветственный слоган"
+            width="281"
+            height="214"
           />
-        </div>
-      </section>
+        </section>
 
-      <section class="entertainments">
-        <ul class="entertainments__list">
-          <li class="entertainments__item">
-            <h3 class="entertainments__item-header">Жильё</h3>
-            <p class="entertainments__item-description">
-              Рекомендуем пожить в настоящем мотеле, всё как в кино!
-            </p>
-          </li>
-          <li class="entertainments__item">
-            <h3 class="entertainments__item-header">Сувениры</h3>
-            <p class="entertainments__item-description">
-              Не только китайского, но и местного производства!
-            </p>
-          </li>
-          <li class="entertainments__item">
-            <h3 class="entertainments__item-header">Еда</h3>
-            <p class="entertainments__item-description">
-              Всегда заказывайте фирменный бургер, вы не разочаруетесь!
-            </p>
-          </li>
-        </ul>
-      </section>
+        <section class="description">
+          <h2 class="description__header">
+            Седона — небольшой городок в Аризоне, заслуживающий большего!
+          </h2>
+          <p class="description__text">
+            Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+          </p>
+        </section>
 
-      <section class="features">
-        <ul class="features__items">
-          <li class="features__item features__item--blue">
-            <h2 class="features__item-header">
-              Там есть мост дьявола
-            </h2>
-            <span class="features__item-number">— №2 —</span>
-            <p class="features__item-description">
-              Да, по нему можно пройти! Если вы осмелитесь, конечно
-            </p>
+        <section class="features">
+          <div class="features__item features__item--blue">
+            <div class="features__item-wrapper">
+              <h2 class="features__item-header">
+                Настоящий городок
+              </h2>
+              <span class="features__item-number">— №1 —</span>
+              <p class="features__item-description">
+                Седона не аттракцион для туристов, там течёт своя жизнь
+              </p>
+            </div>
             <img
               class="features__item-image"
-              src="./img/photo-bridge-mobile@1x.jpg"
-              alt="Фото моста дьявола в городе Седона"
+              src="./img/main-city-mobile@1x.jpg"
+              alt="Фото кафе в городе Седона"
               width="320"
               height="260"
             />
-          </li>
-          <li class="features__item features__item--gray">
-            <h2 class="features__item-header features__item-header--black">
-              Небольшая площадь
-            </h2>
-            <span class="features__item-number">— №3 —</span>
-            <p class="features__item-description">
-              Все интересные места находятся очень близко
-            </p>
-          </li>
-          <li class="features__item features__item--gray">
-            <h2 class="features__item-header features__item-header--black">
-              Красивая дорога
-            </h2>
-            <span class="features__item-number">— №4 —</span>
-            <p class="features__item-description">
-              Ехать в Седону из Лас-Вегаса совсем не скучно!
-            </p>
-          </li>
-          <li class="features__item features__item--gray">
-            <h2 class="features__item-header features__item-header--black">
-              Мало туристов
-            </h2>
-            <span class="features__item-number">— №5 —</span>
-            <p class="features__item-description">
-              Большинство едет в Гранд Каньон и толпится там
-            </p>
-          </li>
+          </div>
+        </section>
+
+        <section class="entertainments">
+          <ul class="entertainments__list">
+            <li class="entertainments__item">
+              <h3 class="entertainments__item-header">Жильё</h3>
+              <p class="entertainments__item-description">
+                Рекомендуем пожить в настоящем мотеле, всё как в кино!
+              </p>
+            </li>
+            <li class="entertainments__item">
+              <h3 class="entertainments__item-header">Сувениры</h3>
+              <p class="entertainments__item-description">
+                Не только китайского, но и местного производства!
+              </p>
+            </li>
+            <li class="entertainments__item">
+              <h3 class="entertainments__item-header">Еда</h3>
+              <p class="entertainments__item-description">
+                Всегда заказывайте фирменный бургер, вы не разочаруетесь!
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="features">
+          <ul class="features__items">
+            <li class="features__item features__item--blue">
+              <div class="features__item-wrapper">
+                <h2 class="features__item-header">
+                  Там есть мост дьявола
+                </h2>
+                <span class="features__item-number">— №2 —</span>
+                <p class="features__item-description">
+                  Да, по нему можно пройти! Если вы осмелитесь, конечно
+                </p>
+              </div>
+              <img
+                class="features__item-image features__item-image--second"
+                src="./img/photo-bridge-mobile@1x.jpg"
+                alt="Фото моста дьявола в городе Седона"
+                width="320"
+                height="260"
+              />
+            </li>
+            <li class="features__item features__item--gray">
+              <h2 class="features__item-header features__item-header--black">
+                Небольшая площадь
+              </h2>
+              <span class="features__item-number">— №3 —</span>
+              <p class="features__item-description">
+                Все интересные места находятся очень близко
+              </p>
+            </li>
+            <li class="features__item features__item--gray">
+              <h2 class="features__item-header features__item-header--black">
+                Красивая дорога
+              </h2>
+              <span class="features__item-number">— №4 —</span>
+              <p class="features__item-description">
+                Ехать в Седону из Лас-Вегаса совсем не скучно!
+              </p>
+            </li>
+            <li class="features__item features__item--gray">
+              <h2 class="features__item-header features__item-header--black">
+                Мало туристов
+              </h2>
+              <span class="features__item-number">— №5 —</span>
+              <p class="features__item-description">
+                Большинство едет в Гранд Каньон и толпится там
+              </p>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="page-footer">
+        <p class="page-footer__hashtag">#VISITSEDONA</p>
+        <ul class="page-footer__social social-list">
+          <li class="social-list__item">Twitter</li>
+          <li class="social-list__item">Facebook</li>
+          <li class="social-list__item">YouTube</li>
         </ul>
-      </section>
-    </main>
 
-    <footer class="page-footer">
-      <p class="page-footer__hashtag">#VISITSEDONA</p>
-      <ul class="page-footer__social social-list">
-        <li class="social-list__item">Twitter</li>
-        <li class="social-list__item">Facebook</li>
-        <li class="social-list__item">YouTube</li>
-      </ul>
-
-      <div class="page-footer__copyright copyright">
-        <span class="copyright__text">Разработано</span>
-      </div>
-    </footer>
+        <div class="page-footer__copyright copyright">
+          <span class="copyright__text">Разработано</span>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

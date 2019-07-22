@@ -1,6 +1,9 @@
+@import "./normalize.scss";
+@import "./variables.scss";
 @import "./fonts.scss";
 @import "./mixins.scss";
 @import "./scaffolding.scss";
+@import "./blocks/container.scss";
 @import "./blocks/page-header.scss";
 @import "./blocks/navigation.scss";
 @import "./blocks/menu-list.scss";
@@ -13,4 +16,3 @@
 @import "./blocks/copyright.scss";
 @import "./blocks/social-list.scss";
 @import "./blocks/photos.scss";
-@import "./blocks/variables.scss";

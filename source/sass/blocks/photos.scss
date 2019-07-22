@@ -24,3 +24,50 @@
   line-height: 24px;
   font-weight: 700;
 }
+
+@media (min-width: $tablet-width) {
+  .photos__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photos__item {
+    width: 324px;
+    background-color: #eaeaea;
+  }
+
+  .photos__decription-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photos__item-image {
+    width: 324px;
+  }
+
+  .photos__item--first {
+    width: 648px;
+  }
+
+  .photos__item--first > .photos__item-image {
+    width: 648px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photos__item {
+    width: 400px;
+  }
+
+  .photos__item-image {
+    width: 400px;
+  }
+
+  .photos__item--first {
+    width: 1200px;
+  }
+
+  .photos__item--first > .photos__item-image {
+    width: 1200px;
+  }
+}
