@@ -31,3 +31,19 @@
 .features__item-header--black {
   color: black;
 }
+
+@media (min-width: $tablet-width) {
+  .features__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .features__item-wrapper {
+    width: 256px;
+    margin: 0 auto;
+  }
+
+  .features__item-image--second {
+    order: -1;
+  }
+}
