@@ -27,3 +27,9 @@
     width: 256px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .entertainments__item {
+    width: 400px;
+  }
+}
