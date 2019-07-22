@@ -16,3 +16,10 @@
   line-height: 26px;
   margin: 0 auto;
 }
+
+@media (min-width: $tablet-width) {
+  .description {
+    width: 490px;
+    margin: 0 auto;
+  }
+}
