@@ -67,3 +67,17 @@
     min-height: 256px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .features__item {
+    width: 1200px;
+  }
+
+  .features__item-wrapper {
+    width: 400px;
+  }
+
+  .features__item--gray {
+    width: 400px;
+  }
+}
