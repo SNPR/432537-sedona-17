@@ -5,10 +5,11 @@
 .menu-list__item {
   color: $main-light-color;
   background-color: $main-blue;
+  text-align: center;
   font-weight: 700;
   min-height: 55px;
   margin: 0;
-  padding: 0;
+  padding: 8px;
   font-size: 18px;
   line-height: 40px;
   box-shadow: 0 1px 0 0 rgba(1, 1, 1, 0.2),
