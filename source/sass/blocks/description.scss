@@ -1,20 +1,21 @@
 .description {
-  display: flex;
-  flex-direction: column;
-  padding: 0 30px;
+  padding: 11px 30px;
 }
 
 .description__header {
+  @include reset;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  margin: 0 auto;
+  margin-bottom: 28px;
+  text-align: center;
 }
 
 .description__text {
+  @include reset;
   font-size: 14px;
   line-height: 26px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 @media (min-width: $tablet-width) {
