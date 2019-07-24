@@ -1,16 +1,30 @@
+.entertainments {
+  margin-bottom: 23px;
+}
+
 .entertainments__list {
   @include reset-list;
 }
 
+.entertainments__item {
+  @include reset;
+  min-height: 110px;
+  padding: 14px 25px 5px 70px;
+}
+
 .entertainments__item-header {
+  @include reset;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+  margin-bottom: 13px;
 }
 
 .entertainments__item-description {
+  @include reset;
   font-size: 14px;
   line-height: 21px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: $tablet-width) {
