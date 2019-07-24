@@ -2,10 +2,17 @@
   @include reset-list;
 }
 
+.features__item {
+  text-align: center;
+  padding: 20px 20px;
+}
+
 .features__item-header {
+  @include reset;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+  margin-bottom: 6px;
 }
 
 .features__item-number {
@@ -14,22 +21,34 @@
 }
 
 .features__item-description {
+  @include reset;
   font-size: 14px;
   line-height: 21px;
+  margin-top: 13px;
 }
 
 .features__item--blue {
+  @include reset;
   background-color: $main-blue;
   color: $main-light-color;
 }
 
 .features__item--gray {
+  @include reset;
   color: $main-gray;
   background-color: #eeeeee;
 }
 
+.features__item-image {
+  margin-bottom: -8px;
+}
+
 .features__item-header--black {
   color: black;
+}
+
+.features__item-wrapper {
+  padding: 55px 20px 40px;
 }
 
 @media (min-width: $tablet-width) {
