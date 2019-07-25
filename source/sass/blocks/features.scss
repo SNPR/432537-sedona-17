@@ -8,7 +8,6 @@
 
 .features__item {
   text-align: center;
-  padding: 20px 20px;
 }
 
 .features__item-header {
@@ -39,6 +38,7 @@
 
 .features__item--gray {
   @include reset;
+  padding: 25px 35px 30px;
   color: $main-gray;
   background-color: #eeeeee;
 }
