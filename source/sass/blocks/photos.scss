@@ -11,6 +11,10 @@
   min-height: 415px;
 }
 
+.photos__item-image {
+  margin-bottom: 8px;
+}
+
 .photos__item-header {
   @include reset-list;
 
@@ -20,15 +24,19 @@
 }
 
 .photos__item-author {
+  display: block;
   text-transform: none;
   font-size: 14px;
   line-height: 24px;
+  margin-bottom: 8px;
 }
 
 .photos__item-likes-amount {
+  @include reset-list;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
+  margin-left: 38px;
 }
 
 @media (min-width: $tablet-width) {
