@@ -1,6 +1,15 @@
 .description {
   padding: 11px 30px;
   margin-bottom: 30px;
+
+  &--photo {
+    padding: 11px 15px;
+    margin-bottom: 13px;
+  }
+
+  &--photo .description__header {
+    margin-bottom: 20px;
+  }
 }
 
 .description__header {
