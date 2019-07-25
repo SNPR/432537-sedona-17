@@ -1,5 +1,8 @@
 .social-list {
   @include reset-list;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
 }
 
 @media (min-width: $tablet-width) {
