@@ -13,3 +13,10 @@
   right: 23px;
   top: 240px;
 }
+
+@media (min-width: $tablet-width) {
+  .navigation__logo {
+    position: relative;
+    top: -66px;
+  }
+}

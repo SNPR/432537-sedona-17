@@ -23,13 +23,24 @@
 @media (min-width: $tablet-width) {
   .menu-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 6px 20px 5px 40px;
+  }
+
+  .menu-list .menu-list__item:nth-of-type(2){
+    margin-left: 33px;
+  }
+
+  .menu-list .menu-list__item:nth-of-type(3){
+    margin-left: 163px;
   }
 
   .menu-list__item {
-    margin-right: 40px;
     background: none;
     color: black;
     box-shadow: none;
+    font-size: 14px;
+    line-height: 26px;
   }
 }
