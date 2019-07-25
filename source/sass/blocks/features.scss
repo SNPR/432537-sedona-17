@@ -63,21 +63,29 @@
 
   .features__item {
     display: flex;
-    align-items: center;
     width: 768px;
     min-height: 256px;
   }
 
+  .features__item-header {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+
+  .features__item-number {
+    margin-bottom: 8px;
+  }
+
   .features__item-wrapper {
-    margin: 0 auto;
+    padding: 45px 45px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 256px;
   }
 
   .features__item-image {
-    flex-grow: 1;
+    width: 512px;
+    height: 256px;
   }
 
   .features__item-image--second {
