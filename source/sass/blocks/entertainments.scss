@@ -33,12 +33,15 @@
   }
 
   .entertainments__item {
-    display: flex;
-    padding: 80px 20px;
-    flex-direction: column;
-    min-height: 330px;
-    align-items: center;
+    text-align: center;
+    padding: 138px 47px 20px;
+    min-height: 286px;
     width: 256px;
+  }
+
+  .entertainments__item-header {
+    font-size: 21px;
+    margin-bottom: 21px;
   }
 }
 
