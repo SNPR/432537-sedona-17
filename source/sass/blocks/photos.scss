@@ -1,3 +1,7 @@
+.photos {
+  padding: 21px 18px;
+}
+
 .photos__items {
   @include reset-list;
 }
@@ -8,6 +12,8 @@
 }
 
 .photos__item-header {
+  @include reset-list;
+
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
