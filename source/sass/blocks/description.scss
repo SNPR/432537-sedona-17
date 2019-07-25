@@ -30,8 +30,9 @@
 
 @media (min-width: $tablet-width) {
   .description {
-    width: 490px;
-    margin: 0 auto;
+    padding: 12px 70px;
+    text-align: center;
+    margin-bottom: 37px;
   }
 
   .description__header {
