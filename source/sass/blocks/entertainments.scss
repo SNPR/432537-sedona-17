@@ -44,7 +44,7 @@
 
   .entertainments__item {
     text-align: center;
-    padding: 138px 47px 20px;
+    padding: 138px 49px 20px;
     min-height: 286px;
     width: 256px;
   }
@@ -55,6 +55,7 @@
 
   .entertainments__list .entertainments__item:nth-of-type(3) {
     order: 2;
+    padding: 138px 42px 20px;
   }
 
   .entertainments__item-header {
