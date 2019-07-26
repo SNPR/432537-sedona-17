@@ -5,10 +5,11 @@
 .menu-list__item {
   color: $main-light-color;
   background-color: $main-blue;
+  text-align: center;
   font-weight: 700;
   min-height: 55px;
   margin: 0;
-  padding: 0;
+  padding: 8px;
   font-size: 18px;
   line-height: 40px;
   box-shadow: 0 1px 0 0 rgba(1, 1, 1, 0.2),
@@ -22,13 +23,38 @@
 @media (min-width: $tablet-width) {
   .menu-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 6px 20px 5px 40px;
+  }
+
+  .menu-list .menu-list__item:nth-of-type(2) {
+    margin-left: 33px;
+  }
+
+  .menu-list .menu-list__item:nth-of-type(3) {
+    margin-left: 163px;
   }
 
   .menu-list__item {
-    margin-right: 40px;
     background: none;
     color: black;
     box-shadow: none;
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .menu-list {
+    padding: 6px 62px 5px 82px;
+  }
+
+  .menu-list .menu-list__item:nth-of-type(2) {
+    margin-left: 24px;
+  }
+
+  .menu-list .menu-list__item:nth-of-type(3) {
+    margin-left: 246px;
   }
 }

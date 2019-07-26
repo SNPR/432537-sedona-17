@@ -1,3 +1,26 @@
 .navigation__list {
   list-style: none;
 }
+
+.navigation__logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.navigation__hamburger-button {
+  position: absolute;
+  bottom: 50px;
+  right: 23px;
+  top: 240px;
+}
+
+@media (min-width: $tablet-width) {
+  .navigation__logo {
+    position: relative;
+    top: -66px;
+  }
+
+  .navigation__hamburger-button {
+    display: none;
+  }
+}

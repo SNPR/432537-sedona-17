@@ -6,6 +6,7 @@
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  text-align: center;
 }
 
 @media (min-width: $tablet-width) {
@@ -13,9 +14,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 60px;
   }
 
   .social-list__item {
     margin-right: 10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer {
+    padding: 0 160px 0 120px;
   }
 }

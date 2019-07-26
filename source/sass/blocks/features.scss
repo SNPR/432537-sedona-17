@@ -1,11 +1,31 @@
+.features {
+  margin-bottom: 21px;
+}
+
 .features__items {
   @include reset-list;
 }
 
+.features br {
+  display: none;
+}
+
+.features__item {
+  text-align: center;
+}
+
 .features__item-header {
+  @include reset;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.features__item-image {
+  width: 320px;
+  height: 260px;
+  margin-bottom: -8px;
 }
 
 .features__item-number {
@@ -14,16 +34,21 @@
 }
 
 .features__item-description {
+  @include reset;
   font-size: 14px;
   line-height: 21px;
+  margin-top: 13px;
 }
 
 .features__item--blue {
+  @include reset;
   background-color: $main-blue;
   color: $main-light-color;
 }
 
 .features__item--gray {
+  @include reset;
+  padding: 25px 35px 30px;
   color: $main-gray;
   background-color: #eeeeee;
 }
@@ -32,29 +57,45 @@
   color: black;
 }
 
+.features__item-wrapper {
+  padding: 40px 20px 40px;
+}
+
 @media (min-width: $tablet-width) {
   .features__items {
     display: flex;
     flex-wrap: wrap;
   }
 
+  .features br {
+    display: initial;
+  }
+
   .features__item {
     display: flex;
-    align-items: center;
-    width: 768px;
     min-height: 256px;
   }
 
+  .features__item-header {
+    font-size: 21px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+  }
+
+  .features__item-number {
+    margin-bottom: 8px;
+  }
+
   .features__item-wrapper {
-    margin: 0 auto;
+    padding: 44px 43px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 256px;
   }
 
   .features__item-image {
-    flex-grow: 1;
+    width: 512px;
+    height: 256px;
   }
 
   .features__item-image--second {
@@ -63,8 +104,13 @@
 
   .features__item--gray {
     flex-direction: column;
+    padding: 45px 49px 20px;
     width: 256px;
     min-height: 256px;
+  }
+
+  .features__items .features__item--gray:nth-of-type(3) {
+    padding: 45px 54px 20px;
   }
 }
 
@@ -73,11 +119,18 @@
     width: 1200px;
   }
 
+  .features__item--blue .features__item-image {
+    width: 800px;
+    height: 256px;
+  }
+
   .features__item-wrapper {
     width: 400px;
+    padding: 52px 58px 20px;
   }
 
   .features__item--gray {
     width: 400px;
+    padding: 45px 40px 20px;
   }
 }
