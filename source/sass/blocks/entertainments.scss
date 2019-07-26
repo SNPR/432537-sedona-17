@@ -53,6 +53,10 @@
     width: 256px;
   }
 
+  .entertainments__item-description br {
+    display: initial;
+  }
+
   .entertainments__list .entertainments__item:nth-of-type(2) {
     order: 1;
   }

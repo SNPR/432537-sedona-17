@@ -6,7 +6,7 @@
   @include reset-list;
 }
 
-.features__items br {
+.features br {
   display: none;
 }
 
@@ -67,6 +67,10 @@
     flex-wrap: wrap;
   }
 
+  .features br {
+    display: initial;
+  }
+
   .features__item {
     display: flex;
     min-height: 256px;
@@ -75,7 +79,6 @@
   .features__item-header {
     font-size: 21px;
     margin-bottom: 10px;
-    padding: 0 73px;
     margin-left: 3px;
   }
 
@@ -84,7 +87,7 @@
   }
 
   .features__item-wrapper {
-    padding: 53px 60px 20px;
+    padding: 44px 43px 20px;
     display: flex;
     flex-direction: column;
     width: 256px;
