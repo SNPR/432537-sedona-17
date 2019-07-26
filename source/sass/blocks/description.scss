@@ -49,3 +49,9 @@
     font-size: 21px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .description {
+    padding: 12px 290px;
+  }
+}
