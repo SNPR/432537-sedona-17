@@ -95,14 +95,35 @@
 
   .photos__item {
     width: 400px;
+    position: relative;
+    background-color: transparent;
+  }
+
+  .photos__item--first .photos__description-container {
+    bottom: 15px;
+    padding-top: 14px;
+  }
+
+  .photos__description-container {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 80px;
+    bottom: 80px;
+    padding-top: 14px;
   }
 
   .photos__item-image {
     width: 400px;
+    height: 267px;
   }
 
   .photos__item--first {
     width: 1200px;
+    min-height: 280px;
+    margin-bottom: -18px;
   }
 
   .photos__item--first > .photos__item-image {
