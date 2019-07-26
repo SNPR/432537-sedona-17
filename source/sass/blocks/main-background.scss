@@ -62,5 +62,14 @@
 @media (min-width: $desktop-width) {
   .main-background {
     background-image: url("../../img/bg-back-desktop@1x.jpg");
+
+    &--small {
+      background-position: 0 -220px;
+      min-height: 301px;
+    }
+  }
+
+  .main-background--small .main-background__slogan-image {
+    top: 101px;
   }
 }
