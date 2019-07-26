@@ -6,6 +6,10 @@
   @include reset-list;
 }
 
+.features__items br {
+  display: none;
+}
+
 .features__item {
   text-align: center;
 }

@@ -22,6 +22,10 @@
   padding: 14px 18px 5px 70px;
 }
 
+.entertainments__item-description br {
+  display: none;
+}
+
 .entertainments__item-header {
   @include reset;
   font-size: 18px;
