@@ -4,6 +4,16 @@
 
 .entertainments__list {
   @include reset-list;
+  display: flex;
+  flex-direction: column;
+}
+
+.entertainments__list .entertainments__item:nth-of-type(2) {
+  order: 2;
+}
+
+.entertainments__list .entertainments__item:nth-of-type(3) {
+  order: 1;
 }
 
 .entertainments__item {
@@ -29,7 +39,7 @@
 
 @media (min-width: $tablet-width) {
   .entertainments__list {
-    display: flex;
+    flex-direction: row;
   }
 
   .entertainments__item {
@@ -37,6 +47,14 @@
     padding: 138px 47px 20px;
     min-height: 286px;
     width: 256px;
+  }
+
+  .entertainments__list .entertainments__item:nth-of-type(2) {
+    order: 1;
+  }
+
+  .entertainments__list .entertainments__item:nth-of-type(3) {
+    order: 2;
   }
 
   .entertainments__item-header {
