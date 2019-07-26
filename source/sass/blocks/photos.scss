@@ -89,6 +89,7 @@
   .photos {
     @include reset;
   }
+
   .photos__items {
     @include reset-list;
   }
