@@ -16,6 +16,8 @@ body {
   line-height: 26px;
   background-color: $main-light-color;
   color: $main-color;
+
+  @include reset;
 }
 
 a {
