@@ -1,14 +1,12 @@
 .main-background {
-  position: relative;
-  top: -28px;
   width: 100%;
   min-height: 390px;
   background-color: #516069;
   background-image: url("../../img/bg-back-mobile@1x.jpg");
   background-position: -224px 0;
   background-repeat: no-repeat;
-  z-index: -1;
   text-align: center;
+  margin-bottom: 28px;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../../img/bg-back-mobile@2x.jpg");
@@ -36,8 +34,6 @@
 @media (min-width: $tablet-width) {
   .main-background {
     background-image: url("../../img/bg-back-tablet@1x.jpg");
-    top: -93px;
-    margin-bottom: -54px;
     background-position: 0 0;
     min-height: 518px;
 
@@ -45,25 +41,28 @@
       background-image: url("../../img/bg-back-tablet@2x.jpg");
       background-size: cover;
     }
+
+    &--small {
+      margin-bottom: 52px;
+    }
   }
 
   .main-background--small {
     background-position: 0 -230px;
 
     min-height: 290px;
-    margin-bottom: -31px;
   }
 
   .main-background__slogan-image-index {
     width: 460px;
     height: 350px;
-    margin-top: 77px;
+    margin-top: 68px;
   }
 
   .main-background__slogan-image {
     width: 460px;
     height: 80px;
-    margin-top: 94px;
+    margin-top: 84px;
   }
 }
 
@@ -79,11 +78,11 @@
     &--small {
       background-position: 0 -220px;
       min-height: 301px;
-      margin-bottom: 5px;
+      margin-bottom: 88px;
     }
   }
 
   .main-background--small .main-background__slogan-image {
-    margin-top: 101px;
+    margin-top: 92px;
   }
 }
