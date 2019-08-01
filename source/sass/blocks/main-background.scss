@@ -45,13 +45,9 @@
 
     &--small {
       margin-bottom: 62px;
+      background-position: 0 -230px;
+      min-height: 290px;
     }
-  }
-
-  .main-background--small {
-    background-position: 0 -230px;
-
-    min-height: 290px;
   }
 
   .main-background__slogan-image-index {
