@@ -3,7 +3,10 @@
   top: -28px;
   width: 100%;
   min-height: 390px;
-  background: #516069 url("../../img/bg-back-mobile@1x.jpg") -224px 0 no-repeat;
+  background-color: #516069;
+  background-image: url("../../img/bg-back-mobile@1x.jpg");
+  background-position: -224px 0;
+  background-repeat: no-repeat;
   z-index: -1;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
