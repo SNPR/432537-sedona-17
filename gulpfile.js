@@ -9,6 +9,7 @@ var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
 var csso = require("gulp-csso");
 var rename = require("gulp-rename");
+var imagemin = require("gulp-imagemin");
 
 gulp.task("css", function() {
   return gulp
@@ -22,6 +23,20 @@ gulp.task("css", function() {
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("build/css"))
     .pipe(server.stream());
+});
+
+gulp.task("images", function() {
+  return gulp
+    .src("source/img/**/*.{png,jpg,svg}")
+    .pipe(
+      imagemin([
+        imagemin.jpegtran({ progressive: true }),
+        imagemin.svgo({
+          plugins: [{ removeViewBox: true }, { cleanupIDs: false }]
+        })
+      ])
+    )
+    .pipe(gulp.dest("source/img"));
 });
 
 gulp.task("server", function() {
