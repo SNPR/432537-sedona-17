@@ -12,6 +12,7 @@ var rename = require("gulp-rename");
 var imagemin = require("gulp-imagemin");
 var webp = require("gulp-webp");
 var svgstore = require("gulp-svgstore");
+var posthtml = require("gulp-posthtml");
 
 gulp.task("css", function() {
   return gulp
