@@ -7,21 +7,22 @@ var sass = require("gulp-sass");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
+var csso = require("gulp-csso");
 
-gulp.task("css", function () {
-  return gulp.src("source/sass/style.scss")
+gulp.task("css", function() {
+  return gulp
+    .src("source/sass/style.scss")
     .pipe(plumber())
     .pipe(sourcemap.init())
     .pipe(sass())
-    .pipe(postcss([
-      autoprefixer()
-    ]))
+    .pipe(postcss([autoprefixer()]))
+    .pipe(csso())
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("build/css"))
     .pipe(server.stream());
 });
 
-gulp.task("server", function () {
+gulp.task("server", function() {
   server.init({
     server: "source/",
     notify: false,
