@@ -37,9 +37,7 @@ gulp.task("images", function() {
       imagemin([
         imagemin.optipng({ optimizationLevel: 3 }),
         imagemin.jpegtran({ progressive: true }),
-        imagemin.svgo({
-          plugins: [{ removeViewBox: true }, { cleanupIDs: false }]
-        })
+        imagemin.svgo({})
       ])
     )
     .pipe(gulp.dest("source/img"));
