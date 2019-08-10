@@ -2,7 +2,8 @@
   @include reset-list;
 }
 
-.menu-list__item {
+.menu-list__item a {
+  display: block;
   color: $main-light-color;
   background-color: $main-blue;
   text-align: center;
@@ -26,10 +27,6 @@
   }
 }
 
-.menu-list__item a {
-  color: inherit;
-}
-
 @media (min-width: $tablet-width) {
   .menu-list {
     display: flex;
@@ -46,7 +43,7 @@
     margin-left: 163px;
   }
 
-  .menu-list__item {
+  .menu-list__item a {
     background: none;
     color: black;
     box-shadow: none;

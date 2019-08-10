@@ -6,7 +6,8 @@
   margin-bottom: 30px;
 }
 
-.social-list__item {
+.social-list__link {
+  display: block;
   background-color: $main-blue;
   min-width: 46px;
   min-height: 48px;
