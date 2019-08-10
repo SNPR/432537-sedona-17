@@ -52,6 +52,13 @@
     min-height: 518px;
     margin-bottom: 38px;
 
+    &::after {
+      background-image: url("../../img/bg-intro-triangle-tablet.svg");
+      background-size: 768px 57px;
+      width: 768px;
+      height: 57px;
+    }
+
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg-back-tablet@2x.jpg");
       background-size: cover;
