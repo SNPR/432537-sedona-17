@@ -93,6 +93,13 @@
     flex-wrap: wrap;
   }
 
+  .features .features__item:first-of-type {
+    &::before,
+    &::after {
+      content: none;
+    }
+  }
+
   .features br {
     display: initial;
   }
