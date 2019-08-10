@@ -33,4 +33,19 @@
   border: none;
   color: white;
   background-color: $main-blue;
+  margin-bottom: 49px;
+}
+
+.hotel-search__map {
+  min-height: 350px;
+  background-color: #cadfaa;
+  margin-bottom: 36px;
+
+  background-image: url("../img/bg-map-mobile@1x.jpg");
+  background-repeat: no-repeat;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg-map-mobile@2x.jpg");
+    background-size: cover;
+  }
 }
