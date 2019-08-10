@@ -10,8 +10,34 @@
   display: none;
 }
 
+.features .features__item:first-of-type {
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../img/bg-triangle.svg");
+    background-size: 320px 37px;
+    top: -37px;
+    left: 0;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 37px;
+    z-index: 1;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 320px;
+    background-color: $main-blue;
+    height: 37px;
+    top: -15px;
+    left: 0;
+  }
+}
+
 .features__item {
   text-align: center;
+  position: relative;
 }
 
 .features__item-header {
