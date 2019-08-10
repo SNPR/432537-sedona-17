@@ -34,6 +34,10 @@
   color: white;
   background-color: $main-blue;
   margin-bottom: 49px;
+
+  &:hover, &:focus {
+    
+  }
 }
 
 .hotel-search__map {

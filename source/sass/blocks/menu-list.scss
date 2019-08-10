@@ -17,11 +17,11 @@
 
   &:hover,
   &:focus {
-    background-color: #669ec0;
+    background-color: $main-blue-hover;
   }
 
   &:active {
-    background-color: #5496bd;
+    background-color: $main-blue-active;
     opacity: 0.3;
   }
 }
