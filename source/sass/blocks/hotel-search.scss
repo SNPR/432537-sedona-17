@@ -42,7 +42,7 @@
 
   &:active {
     background-color: $main-blue-active;
-    color: rgba(255, 255, 255, 0.3);
+    color: $main-text-pressed;
   }
 
   &:disabled {

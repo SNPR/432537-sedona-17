@@ -12,6 +12,19 @@
   min-height: 48px;
   text-align: center;
   padding: 14px 5px 5px;
+
+  &:hover,
+  &:focus {
+    background-color: $main-blue-hover;
+  }
+
+  &:active {
+    background-color: $main-blue-active;
+  }
+
+  &:active path {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: $tablet-width) {
