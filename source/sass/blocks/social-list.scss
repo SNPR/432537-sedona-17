@@ -2,7 +2,16 @@
   @include reset-list;
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 5px 84px;
+  margin-bottom: 38px;
+}
+
+.social-list__item {
+  background-color: $main-blue;
+  min-width: 46px;
+  min-height: 48px;
+  text-align: center;
+  padding: 14px 5px 5px;
 }
 
 @media (min-width: $tablet-width) {
