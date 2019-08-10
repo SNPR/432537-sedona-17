@@ -1,5 +1,7 @@
 .main-background {
   width: 100%;
+  position: relative;
+  z-index: -1;
   min-height: 390px;
   background-color: #516069;
   background-image: url("../img/bg-back-mobile@1x.jpg");
@@ -7,6 +9,18 @@
   background-repeat: no-repeat;
   text-align: center;
   margin-bottom: 28px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url("../../img/bg-intro-triangle-mobile.svg");
+    background-size: 322px 28px;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    width: 322px;
+    height: 27px;
+  }
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/bg-back-mobile@2x.jpg");
