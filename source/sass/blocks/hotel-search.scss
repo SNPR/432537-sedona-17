@@ -35,8 +35,18 @@
   background-color: $main-blue;
   margin-bottom: 49px;
 
-  &:hover, &:focus {
-    
+  &:hover,
+  &:focus {
+    background-color: $main-blue-hover;
+  }
+
+  &:active {
+    background-color: $main-blue-active;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
   }
 }
 
