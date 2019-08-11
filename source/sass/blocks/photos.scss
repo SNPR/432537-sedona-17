@@ -71,14 +71,16 @@
 }
 
 .photos__video-controls {
+  position: absolute;
   min-width: 320px;
   padding: 0 20px;
   margin-bottom: 100px;
+  bottom: -1517px;
 }
 
 .photos__control-scroll {
   position: relative;
-  background-color: rgba(81, 96, 105, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   min-height: 45px;
   padding: 21px 22px 11px;
 }
@@ -100,7 +102,7 @@
   margin-top: -1px;
   min-width: 235px;
   min-height: 3px;
-  background-color: rgba(81, 96, 105, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .photos__control-buttons {
@@ -111,6 +113,10 @@
   min-height: 66px;
   background-color: #f2f2f2;
   padding: 5px 24px;
+}
+
+.photos__control-button {
+  fill: #5c6870;
 }
 
 .photos__control-buttons .photos__control-button:first-child {
