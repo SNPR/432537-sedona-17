@@ -71,7 +71,7 @@
               Представьтесь:
             </h3>
 
-            <div class="feedback__field">
+            <div class="feedback__field-text">
               <label for="first-name" class="feedback__label-text">Имя*:</label>
               <input
                 type="text"
@@ -81,7 +81,7 @@
               />
             </div>
 
-            <div class="feedback__field">
+            <div class="feedback__field-text">
               <label for="last-name" class="feedback__label-text"
                 >Фамилия*:</label
               >
@@ -93,7 +93,7 @@
               />
             </div>
 
-            <div class="feedback__field">
+            <div class="feedback__field-text">
               <label for="patronym" class="feedback__label-text"
                 >Отчество:</label
               >
@@ -119,12 +119,12 @@
               placeholder="Введите телефон"
             />
 
-            <label for="last-name" class="feedback__label-text"
+            <label for="email" class="feedback__label-text"
               >Электронная почта*:</label
             >
             <input
-              type="text"
-              id="last-name"
+              type="email"
+              id="email"
               class="feedback__input-text"
               placeholder="Введите e-mail"
             />
@@ -133,38 +133,98 @@
               Ваше общее впечатление:
             </h3>
 
-            <input
-              type="radio"
-              name="impression"
-              value="positive"
-              class="feedback__input-radio"
-              id="imression-positive"
-            />
-            <label for="imression-positive" class="feedback__label-radio"
-              >Скорее положительное</label
-            >
+            <div class="feedback__field">
+              <input
+                type="radio"
+                name="impression"
+                value="positive"
+                class="feedback__input-radio"
+                id="imression-positive"
+                checked
+              />
+              <label for="imression-positive" class="feedback__label"
+                >Скорее положительное</label
+              >
+            </div>
 
-            <input
-              type="radio"
-              name="impression"
-              value="negative"
-              class="feedback__input-radio"
-              id="imression-negative"
-            />
-            <label for="imression-negative" class="feedback__label-radio"
-              >Скорее отрицательное</label
-            >
+            <div class="feedback__field">
+              <input
+                type="radio"
+                name="impression"
+                value="negative"
+                class="feedback__input-radio"
+                id="imression-negative"
+              />
+              <label for="imression-negative" class="feedback__label"
+                >Скорее отрицательное</label
+              >
+            </div>
 
-            <input
-              type="radio"
-              name="impression"
-              value="uncertain"
-              class="feedback__input-radio"
-              id="imression-uncertain"
-            />
-            <label for="imression-uncertain" class="feedback__label-radio"
-              >Затрудняюсь ответить</label
-            >
+            <div class="feedback__field">
+              <input
+                type="radio"
+                name="impression"
+                value="uncertain"
+                class="feedback__input-radio"
+                id="imression-uncertain"
+              />
+              <label for="imression-uncertain" class="feedback__label"
+                >Затрудняюсь ответить</label
+              >
+            </div>
+
+            <h3 class="feedback__header">
+              Посещённые достопримечательности:
+            </h3>
+
+            <div class="feedback__field">
+              <input
+                type="checkbox"
+                value="devils-bridge"
+                class="feedback__input-checkbox"
+                id="devils-bridge"
+                checked
+              />
+              <label for="devils-bridge" class="feedback__label"
+                >Мост Дьявола</label
+              >
+            </div>
+
+            <div class="feedback__field">
+              <input
+                type="checkbox"
+                value="mountain-bell"
+                class="feedback__input-checkbox"
+                id="mountain-bell"
+                checked
+              />
+              <label for="mountain-bell" class="feedback__label"
+                >Гора-Колокол</label
+              >
+            </div>
+
+            <div class="feedback__field">
+              <input
+                type="checkbox"
+                value="slide-park"
+                class="feedback__input-checkbox"
+                id="slide-park"
+                checked
+              />
+              <label for="slide-park" class="feedback__label">Слайд-парк</label>
+            </div>
+
+            <div class="feedback__field">
+              <input
+                type="checkbox"
+                value="red-cliff"
+                class="feedback__input-checkbox"
+                id="red-cliff"
+              />
+              <label for="red-cliff" class="feedback__label"
+                >Красные скалы</label
+              >
+            </div>
 
             <h3 class="feedback__header">
               Опишите свои эмоции:
