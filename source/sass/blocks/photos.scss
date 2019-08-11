@@ -167,6 +167,11 @@
 
   .photos__item-likes-amount {
     align-self: center;
+
+    &::before {
+      left: -32px;
+      top: -1px;
+    }
   }
 
   .photos__item-image {
