@@ -299,4 +299,11 @@
   .photos__item--first .photos__item-image {
     width: 1200px;
   }
+
+  .photos__item-likes-amount {
+    &::before {
+      opacity: 1;
+      filter: invert(1);
+    }
+  }
 }
