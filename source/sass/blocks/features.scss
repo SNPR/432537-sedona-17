@@ -152,10 +152,18 @@
     width: 1200px;
   }
 
+  .features__item-description br {
+    display: none;
+  }
+
   .features__item--blue .features__item-image {
     width: 800px;
     height: 256px;
     object-fit: cover;
+  }
+
+  .features__items .features__item-wrapper:first-child {
+    padding: 52px 88px 20px;
   }
 
   .features__item-wrapper {
