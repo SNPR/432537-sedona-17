@@ -1,5 +1,5 @@
 .photos {
-  padding: 21px 18px;
+  padding: 21px 18px 13px;
 }
 
 .photos__items {
@@ -50,6 +50,24 @@
     top: -1px;
     opacity: 0.3;
   }
+}
+
+.photos__presentaton-description {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.photos__presentation-header {
+  @include reset;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 27px;
+}
+
+.photos__presentaton-text {
+  @include reset;
+  line-height: 24px;
+  margin-bottom: 34px;
 }
 
 @media (min-width: $tablet-width) {
