@@ -257,7 +257,7 @@
 @media (min-width: $desktop-width) {
   .photos {
     @include reset;
-    margin-bottom: 70px;
+    margin-bottom: 0px;
   }
 
   .photos__items {
@@ -311,5 +311,24 @@
 
   .photos__item:not(:first-of-type) .photos__description-container {
     bottom: 16px;
+  }
+
+  .photos__presentation {
+    padding: 11px 199px;
+    margin-bottom: 96px;
+  }
+
+  .photos__presentaton-description {
+    padding: 41px 180px 39px;
+  }
+
+  .photos__video-controls {
+    left: 179px;
+    bottom: -79px;
+    min-width: 840px;
+  }
+
+  .photos__control-scale {
+    min-width: 540px;
   }
 }
