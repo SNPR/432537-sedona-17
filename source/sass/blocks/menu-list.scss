@@ -51,6 +51,29 @@
     line-height: 26px;
     padding-bottom: 5px;
     min-height: 45px;
+
+    &:hover,
+    &:focus {
+      background: none;
+      color: $main-blue;
+    }
+
+    &:active {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .menu-list__item--active a {
+    color: #766357;
+
+    &:hover,
+    &:focus {
+      color: #604e43;
+    }
+
+    &:active {
+      color: rgba(118, 99, 87, 0.3);
+    }
   }
 }
 
