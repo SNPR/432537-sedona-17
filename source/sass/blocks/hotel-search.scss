@@ -118,3 +118,22 @@
     }
   }
 }
+
+@media (min-width: $desktop-width) {
+  .hotel-search__description {
+    margin-bottom: 37px;
+  }
+
+  .hotel-search__button {
+    margin-bottom: 66px;
+  }
+
+  .hotel-search__map {
+    background-image: url("../img/bg-map-desktop@1x.jpg");
+
+    &::before {
+      top: 162px;
+      left: 586px;
+    }
+  }
+}
