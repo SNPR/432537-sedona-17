@@ -58,7 +58,121 @@
         </section>
 
         <section class="feedback">
+          <h3 class="feedback__header">
+            Оставьте свой отзыв
+          </h3>
+          <p class="feedback__description">
+            Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о
+            посещенных вами достопримечательностях
+          </p>
 
+          <form action="post" class="feedback__form">
+            <h3 class="feedback__header">
+              Представьтесь:
+            </h3>
+
+            <label for="first-name" class="feedback__label-text">Имя*:</label>
+            <input
+              type="text"
+              id="first-name"
+              class="feedback__input-text"
+              placeholder="Петр"
+            />
+
+            <label for="last-name" class="feedback__label-text"
+              >Фамилия*:</label
+            >
+            <input
+              type="text"
+              id="last-name"
+              class="feedback__input-text"
+              placeholder="Иванов"
+            />
+            <label for="patronym" class="feedback__label-text">Отчество:</label>
+            <input
+              type="text"
+              id="patronym"
+              class="feedback__input-text"
+              placeholder="Александрович"
+            />
+
+            <h3 class="feedback__header">
+              Контактная информация:
+            </h3>
+
+            <label for="phone-number" class="feedback__label-text"
+              >Контактный телефон*:</label
+            >
+            <input
+              type="text"
+              id="phone-number"
+              class="feedback__input-text"
+              placeholder="Введите телефон"
+            />
+
+            <label for="last-name" class="feedback__label-text"
+              >Электронная почта*:</label
+            >
+            <input
+              type="text"
+              id="last-name"
+              class="feedback__input-text"
+              placeholder="Введите e-mail"
+            />
+
+            <h3 class="feedback__header">
+              Ваше общее впечатление:
+            </h3>
+
+            <input
+              type="radio"
+              name="impression"
+              value="positive"
+              class="feedback__input-radio"
+              id="imression-positive"
+            />
+            <label for="imression-positive" class="feedback__label-radio"
+              >Скорее положительное</label
+            >
+
+            <input
+              type="radio"
+              name="impression"
+              value="negative"
+              class="feedback__input-radio"
+              id="imression-negative"
+            />
+            <label for="imression-negative" class="feedback__label-radio"
+              >Скорее отрицательное</label
+            >
+
+            <input
+              type="radio"
+              name="impression"
+              value="uncertain"
+              class="feedback__input-radio"
+              id="imression-uncertain"
+            />
+            <label for="imression-uncertain" class="feedback__label-radio"
+              >Затрудняюсь ответить</label
+            >
+
+            <h3 class="feedback__header">
+              Опишите свои эмоции:
+            </h3>
+
+            <textarea
+              class="feedback__textarea"
+              name="emotions"
+              cols="30"
+              rows="5"
+              placeholder="Опишите подробно свои эмоции"
+            ></textarea>
+
+            <button type="submit" class="feedback__sumbit-button">
+              Отправить свой отзыв
+            </button>
+          </form>
         </section>
       </main>
 
