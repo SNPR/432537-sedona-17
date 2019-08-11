@@ -200,6 +200,46 @@
     font-size: 30px;
     margin-bottom: 31px;
   }
+
+  .photos__video-controls {
+    min-width: 688px;
+    left: 40px;
+    bottom: -83px;
+  }
+
+  .photos__control-buttons {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 48px;
+  }
+
+  .photos__control-scale {
+    top: 46px;
+    left: 93px;
+    min-width: 389px;
+  }
+
+  .photos__control-cirle {
+    left: 205px;
+    top: 46px;
+  }
+
+  .photos__control-button {
+    fill: $main-light-color;
+    position: absolute;
+  }
+
+  .photos__control-button:first-of-type {
+    left: 55px;
+    top: 35px;
+  }
+  .photos__control-button:nth-of-type(2) {
+    right: 112px;
+    top: 36px;
+  }
+  .photos__control-button:last-of-type {
+    right: 61px;
+    top: 36px;
+  }
 }
 
 @media (min-width: $desktop-width) {
