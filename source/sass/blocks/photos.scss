@@ -54,6 +54,7 @@
 
 .photos__presentation {
   position: relative;
+  margin-bottom: 133px;
 }
 
 .photos__presentaton-description {
@@ -121,6 +122,16 @@
 
 .photos__control-button {
   fill: #5c6870;
+
+  &:hover,
+  &:focus {
+    fill: black;
+  }
+
+  &:active {
+    fill: black;
+    opacity: 0.3;
+  }
 }
 
 .photos__control-buttons .photos__control-button:first-child {
