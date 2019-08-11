@@ -2,10 +2,18 @@
   @include reset;
   font-size: 18px;
   line-height: 26px;
+  text-align: center;
+}
+
+.feedback__description {
+  @include reset;
+  color: $main-gray;
+  text-align: center;
 }
 
 .feedback__label-text {
   line-height: 26px;
+  color: $main-gray;
 }
 
 .feedback__label {
