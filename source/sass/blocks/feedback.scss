@@ -3,3 +3,45 @@
   font-size: 18px;
   line-height: 26px;
 }
+
+.feedback__label-text {
+  line-height: 26px;
+}
+
+.feedback__label-radio {
+  text-transform: initial;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.feedback__input-text {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.feedback__input-text::-webkit-input-placeholder {
+  color: black;
+}
+
+.feedback__textarea {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.feedback__textarea::-webkit-input-placeholder {
+  color: black;
+}
+
+.feedback__sumbit-button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: inherit;
+  color: $main-light-color;
+  background-color: $main-blue;
+  border: none;
+  padding: 15px 35px;
+}

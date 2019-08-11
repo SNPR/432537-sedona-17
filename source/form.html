@@ -71,30 +71,39 @@
               Представьтесь:
             </h3>
 
-            <label for="first-name" class="feedback__label-text">Имя*:</label>
-            <input
-              type="text"
-              id="first-name"
-              class="feedback__input-text"
-              placeholder="Петр"
-            />
+            <div class="feedback__field">
+              <label for="first-name" class="feedback__label-text">Имя*:</label>
+              <input
+                type="text"
+                id="first-name"
+                class="feedback__input-text"
+                placeholder="Петр"
+              />
+            </div>
 
-            <label for="last-name" class="feedback__label-text"
-              >Фамилия*:</label
-            >
-            <input
-              type="text"
-              id="last-name"
-              class="feedback__input-text"
-              placeholder="Иванов"
-            />
-            <label for="patronym" class="feedback__label-text">Отчество:</label>
-            <input
-              type="text"
-              id="patronym"
-              class="feedback__input-text"
-              placeholder="Александрович"
-            />
+            <div class="feedback__field">
+              <label for="last-name" class="feedback__label-text"
+                >Фамилия*:</label
+              >
+              <input
+                type="text"
+                id="last-name"
+                class="feedback__input-text"
+                placeholder="Иванов"
+              />
+            </div>
+
+            <div class="feedback__field">
+              <label for="patronym" class="feedback__label-text"
+                >Отчество:</label
+              >
+              <input
+                type="text"
+                id="patronym"
+                class="feedback__input-text"
+                placeholder="Александрович"
+              />
+            </div>
 
             <h3 class="feedback__header">
               Контактная информация:
@@ -170,7 +179,7 @@
             ></textarea>
 
             <button type="submit" class="feedback__sumbit-button">
-              Отправить свой отзыв
+              Отправить отзыв
             </button>
           </form>
         </section>
