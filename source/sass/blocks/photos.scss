@@ -104,9 +104,17 @@
 }
 
 .photos__control-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   min-width: 235px;
   min-height: 66px;
   background-color: #f2f2f2;
+  padding: 5px 24px;
+}
+
+.photos__control-buttons .photos__control-button:first-child {
+  margin-right: 104px;
 }
 
 @media (min-width: $tablet-width) {
