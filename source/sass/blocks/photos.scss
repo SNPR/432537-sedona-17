@@ -226,16 +226,27 @@
   .photos__control-button {
     fill: $main-light-color;
     position: absolute;
+
+    &:hover,
+    &:focus {
+      fill: #c2c2c2;
+    }
+
+    &:active {
+      fill: #949494;
+    }
   }
 
   .photos__control-button:first-of-type {
     left: 55px;
     top: 35px;
   }
+
   .photos__control-button:nth-of-type(2) {
     right: 112px;
     top: 36px;
   }
+
   .photos__control-button:last-of-type {
     right: 61px;
     top: 36px;
