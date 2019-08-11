@@ -70,6 +70,30 @@
   margin-bottom: 34px;
 }
 
+.photos__video-controls {
+  min-width: 320px;
+  padding: 0 20px;
+  margin-bottom: 100px;
+}
+
+.photos__control-scroll {
+  background-color: rgba(81, 96, 105, 0.6);
+  min-height: 45px;
+  padding: 21px 22px;
+}
+
+.photos__control-scale {
+  min-width: 235px;
+  min-height: 3px;
+  background-color: $main-light-color;
+}
+
+.photos__control-buttons {
+  min-width: 235px;
+  min-height: 66px;
+  background-color: #f2f2f2;
+}
+
 @media (min-width: $tablet-width) {
   .photos__items {
     padding: 0 41px;
