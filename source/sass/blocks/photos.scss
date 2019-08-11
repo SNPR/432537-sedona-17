@@ -187,6 +187,19 @@
     width: 648px;
     height: 400px;
   }
+
+  .photos__presentation {
+    padding: 10px 60px;
+  }
+
+  .photos__presentaton-description {
+    padding: 42px 110px 39px;
+  }
+
+  .photos__presentation-header {
+    font-size: 30px;
+    margin-bottom: 31px;
+  }
 }
 
 @media (min-width: $desktop-width) {
