@@ -88,6 +88,13 @@
   .main-background {
     background-image: url("../img/bg-back-desktop@1x.jpg");
 
+    &::after {
+      background-image: url("../../img/bg-intro-triangle-desktop.svg");
+      background-size: 1200px 57px;
+      width: 1200px;
+      height: 57px;
+    }
+
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg-back-desktop@2x.jpg");
       background-size: cover;
