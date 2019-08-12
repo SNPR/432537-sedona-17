@@ -26,6 +26,10 @@
   margin-bottom: 9px;
 }
 
+.feedback__field {
+  padding: 22px 5px 20px;
+}
+
 .feedback__form .feedback__header:first-of-type {
   margin-bottom: 24px;
 }
@@ -37,6 +41,7 @@
 
 .feedback__form .feedback__header:nth-of-type(3) {
   margin-top: 35px;
+  margin-bottom: 15px;
 }
 
 .feedback__label-text {
@@ -54,6 +59,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
+  margin-left: 41px;
 }
 
 .feedback__input-text {
@@ -77,6 +83,10 @@
 
 .feedback__input-text::-webkit-input-placeholder {
   color: black;
+}
+
+.feedback__input-radio {
+  margin-left: 16px;
 }
 
 .feedback__textarea {
