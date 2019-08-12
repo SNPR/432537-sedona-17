@@ -125,6 +125,8 @@
 }
 
 .feedback__sumbit-button {
+  display: block;
+  margin: 0 auto 47px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -132,5 +134,6 @@
   color: $main-light-color;
   background-color: $main-blue;
   border: none;
-  padding: 15px 35px;
+  padding: 16px 48px;
+  min-width: 280px;
 }
