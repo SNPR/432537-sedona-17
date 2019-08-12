@@ -1,19 +1,39 @@
+.feedback {
+  padding: 8px 21px 5px;
+}
+
 .feedback__header {
   @include reset;
   font-size: 18px;
   line-height: 26px;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .feedback__description {
   @include reset;
   color: $main-gray;
   text-align: center;
+  line-height: 24px;
+  margin-bottom: 37px;
+}
+
+.feedback__field-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17px;
+  margin-bottom: 9px;
+}
+
+.feedback__form .feedback__header:first-of-type {
+  margin-bottom: 24px;
 }
 
 .feedback__label-text {
   line-height: 26px;
   color: $main-gray;
+  margin-right: 13px;
 }
 
 .feedback__label {
@@ -27,6 +47,12 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+  border: none;
+  background-color: $main-light-gray;
+  min-height: 58px;
+  flex-grow: 1;
+  padding: 6px 5px 7px 22px;
+  overflow: hidden;
 }
 
 .feedback__input-text::-webkit-input-placeholder {
