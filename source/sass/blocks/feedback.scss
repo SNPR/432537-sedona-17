@@ -53,6 +53,11 @@
   margin-bottom: 7px;
 }
 
+.feedback__form .feedback__header:nth-of-type(5) {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
 .feedback__label-text {
   line-height: 26px;
   color: $main-gray;
@@ -106,6 +111,13 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+  border: none;
+  background-color: $main-light-gray;
+  padding: 17px 18px;
+  min-width: 279px;
+  min-height: 161px;
+  resize: none;
+  margin-bottom: 43px;
 }
 
 .feedback__textarea::-webkit-input-placeholder {
