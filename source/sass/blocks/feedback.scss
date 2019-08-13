@@ -102,12 +102,35 @@ input[type="checkbox"]:checked::before {
 }
 
 .feedback__label-text {
+  position: relative;
   line-height: 26px;
   color: $main-gray;
   margin-right: 13px;
 
   &--contacts {
     margin-left: 20px;
+  }
+}
+
+.feedback__label-text--contacts {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    background-color: #e6e6e6;
+    top: 29px;
+    left: 201px;
+    background-image: url("../../img/icon-phone.svg");
+    background-repeat: no-repeat;
+    background-position: 21px 20px;
+  }
+}
+
+.feedback__label-text--contacts:last-of-type {
+  &::after {
+    background-image: url("../../img/icon-mail.svg");
+    background-position: 21px 21px;
   }
 }
 
@@ -131,7 +154,6 @@ input[type="checkbox"]:checked::before {
   overflow: hidden;
 
   &--contacts {
-    color: red;
     margin-top: 7px;
     margin-bottom: 12px;
     min-width: 280px;
