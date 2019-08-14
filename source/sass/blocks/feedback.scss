@@ -172,13 +172,19 @@
     margin-bottom: 12px;
     min-width: 280px;
   }
+
+  &:hover {
+    background-color: $main-gray-hover;
+  }
+
+  &:focus {
+    background-color: $main-light-color;
+    outline: 4px solid #eaeaea;
+  }
 }
 
 .feedback__input-text::-webkit-input-placeholder {
   color: black;
-}
-
-.feedback__input-radio {
 }
 
 .feedback__textarea {
