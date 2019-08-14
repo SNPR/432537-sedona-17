@@ -230,4 +230,14 @@
   border: none;
   padding: 16px 48px;
   min-width: 280px;
+
+  &:hover,
+  &:focus {
+    background-color: $main-blue-hover;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: $main-blue-active;
+  }
 }
