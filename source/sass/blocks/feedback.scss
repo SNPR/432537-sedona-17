@@ -271,4 +271,29 @@
   .feedback__header {
     font-size: 21px;
   }
+
+  .feedback__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .feedback__inpunts-wrapper:first-of-type {
+    order: 1;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(2) {
+    order: 3;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(3) {
+    order: 0;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(4) {
+    order: 4;
+  }
+
+  .feedback__inpunts-wrapper:last-of-type {
+    order: 5;
+  }
 }
