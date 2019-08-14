@@ -297,7 +297,29 @@
   }
 
   .feedback__inpunts-wrapper:nth-of-type(2) {
-    order: 3;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    padding: 10px 40px;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(2) .feedback__header {
+    margin-top: 30px;
+    margin-bottom: 24px;
+    margin-left: 54px;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(2)
+    .feedback__input-text:first-of-type {
+    margin-bottom: 23px;
+  }
+
+  .feedback__label-text--contacts {
+    &::after {
+      top: 33px;
+      left: 569px;
+    }
   }
 
   .feedback__inpunts-wrapper:nth-of-type(3) {
@@ -316,10 +338,10 @@
   }
 
   .feedback__inpunts-wrapper:nth-of-type(4) {
-    order: 4;
+    order: 3;
   }
 
   .feedback__inpunts-wrapper:last-of-type {
-    order: 5;
+    order: 4;
   }
 }
