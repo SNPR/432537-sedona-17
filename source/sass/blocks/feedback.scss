@@ -53,6 +53,11 @@
 }
 
 .feedback__label {
+  text-transform: initial;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-left: 41px;
   padding-left: 31px;
 
   &::before {
@@ -170,14 +175,6 @@
   }
 }
 
-.feedback__label {
-  text-transform: initial;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26px;
-  margin-left: 41px;
-}
-
 .feedback__input-text {
   font-size: 18px;
   line-height: 26px;
@@ -268,5 +265,9 @@
 
   .feedback__description {
     padding: 5px 140px;
+  }
+
+  .feedback__header {
+    font-size: 21px;
   }
 }
