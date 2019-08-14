@@ -2,12 +2,29 @@
   padding: 8px 21px 5px;
 }
 
+.feedback > .feedback__header {
+  &::before {
+    background-color: transparent;
+  }
+}
+
 .feedback__header {
   @include reset;
+  position: relative;
   font-size: 18px;
   line-height: 26px;
   text-align: center;
   margin-bottom: 25px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    min-width: 318px;
+    height: 1px;
+    background-color: $main-light-gray;
+    top: -19px;
+    left: -20px;
+  }
 }
 
 .feedback__description {
