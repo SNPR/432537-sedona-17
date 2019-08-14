@@ -258,3 +258,15 @@
     background-color: $main-blue-active;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .feedback > .feedback__header {
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 26px;
+  }
+
+  .feedback__description {
+    padding: 5px 140px;
+  }
+}
