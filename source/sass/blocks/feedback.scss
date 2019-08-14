@@ -339,6 +339,24 @@
 
   .feedback__inpunts-wrapper:nth-of-type(4) {
     order: 3;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 135px;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(4) .feedback__header {
+    margin-top: 16px;
+    margin-right: 143px;
+    margin-bottom: 21px;
+    min-width: 300px;
+    padding: 5px 60px;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(4) .feedback__field--checkbox {
+    min-width: 140px;
+    margin-right: 120px;
+    margin-bottom: 9px;
   }
 
   .feedback__inpunts-wrapper:last-of-type {
