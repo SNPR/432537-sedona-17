@@ -73,8 +73,22 @@
   background-image: url("../../img/icon-tick.svg");
 }
 
-input[type="checkbox"]:checked::before {
-  background-image: url("../../img/icon-tick.svg");
+.feedback__input-checkbox:hover + .feedback__label--checkbox::before,
+.feedback__input-checkbox:focus + .feedback__label--checkbox::before {
+  background-color: $main-gray-hover;
+}
+
+.feedback__input-checkbox:active + .feedback__label--checkbox::before {
+  background-color: $main-gray-active;
+}
+
+.feedback__input-radio:hover + .feedback__label--radio::before,
+.feedback__input-radio:focus + .feedback__label--radio::before {
+  background-color: $main-gray-hover;
+}
+
+.feedback__input-radio:active + .feedback__label--radio::before {
+  background-color: $main-gray-active;
 }
 
 .feedback__form .feedback__header:first-of-type {
