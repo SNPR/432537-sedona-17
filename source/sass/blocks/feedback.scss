@@ -257,7 +257,15 @@
   }
 }
 
+.feedback__caption {
+  display: none;
+}
+
 @media (min-width: $tablet-width) {
+  .feedback {
+    margin-bottom: 40px;
+  }
+
   .feedback > .feedback__header {
     font-size: 30px;
     margin-top: 4px;
@@ -375,5 +383,19 @@
     min-width: 648px;
     padding-left: 21px;
     margin-bottom: 39px;
+  }
+
+  .feedback__sumbit-button {
+    order: 5;
+    margin-left: 39px;
+    min-width: 324px;
+    padding-left: 37px;
+  }
+
+  .feedback__caption {
+    @include reset;
+    order: 6;
+    display: initial;
+    padding: 18px 40px;
   }
 }
