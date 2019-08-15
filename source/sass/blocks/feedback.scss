@@ -297,6 +297,10 @@
     margin-top: 22px;
     margin-bottom: 57px;
     margin-right: 138px;
+
+    &::before {
+      display: none;
+    }
   }
 
   .feedback__inpunts-wrapper:first-of-type .feedback__field-text {
@@ -316,6 +320,23 @@
     margin-top: 30px;
     margin-bottom: 24px;
     margin-left: 54px;
+
+    &::before {
+      top: 12px;
+      left: -55px;
+      min-width: 125px;
+      background-color: $main-light-gray;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      min-width: 125px;
+      height: 1px;
+      background-color: $main-light-gray;
+      top: 12px;
+      left: 470px;
+    }
   }
 
   .feedback__inpunts-wrapper:nth-of-type(2)
@@ -338,6 +359,10 @@
   .feedback__inpunts-wrapper:nth-of-type(3) .feedback__header {
     margin-top: 22px;
     margin-bottom: 52px;
+
+    &::before {
+      display: none;
+    }
   }
 
   .feedback__inpunts-wrapper:nth-of-type(3) .feedback__field {
@@ -387,6 +412,7 @@
 
   .feedback__sumbit-button {
     order: 5;
+    min-height: 58px;
     margin-left: 39px;
     min-width: 324px;
     padding-left: 37px;
