@@ -288,9 +288,20 @@
   }
 
   .feedback__inpunts-wrapper:first-of-type {
+    position: relative;
     order: 1;
     padding: 10px 39px 10px 0px;
     width: 308px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      min-height: 290px;
+      width: 1px;
+      background-color: $main-light-gray;
+      top: 38px;
+      left: -56px;
+    }
   }
 
   .feedback__inpunts-wrapper .feedback__header {
