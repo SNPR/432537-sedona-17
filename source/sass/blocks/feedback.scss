@@ -584,7 +584,7 @@
 
   .feedback__inpunts-wrapper:nth-of-type(4)
     .feedback__field--checkbox:nth-of-type(3) {
-    margin-right: 95px;
+    margin-right: 98px;
   }
 
   .feedback__inpunts-wrapper:nth-of-type(4)
@@ -595,5 +595,28 @@
   .feedback__inpunts-wrapper:nth-of-type(4)
     .feedback__field--checkbox:last-of-type {
     margin-right: 0;
+  }
+
+  .feedback__inpunts-wrapper:last-of-type .feedback__header {
+    &::before {
+      left: -2px;
+      top: 12px;
+      min-width: 282px;
+    }
+
+    &::after {
+      left: 680px;
+      top: 12px;
+      min-width: 282px;
+    }
+  }
+
+  .feedback__textarea {
+    min-width: 960px;
+  }
+
+  .feedback__sumbit-button {
+    min-width: 480px;
+    padding-left: 48px;
   }
 }
