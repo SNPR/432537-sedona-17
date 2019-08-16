@@ -462,7 +462,35 @@
 }
 
 @media (min-width: $desktop-width) {
+  .feedback {
+    padding: 8px 81px;
+  }
   .feedback__description {
-    padding: 5px 360px;
+    padding: 5px 300px;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(3) {
+    padding-left: 41px;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(3) .feedback__header {
+    margin-top: 7px;
+    margin-bottom: 53px;
+    margin-left: 79px;
+  }
+
+  .feedback__inpunts-wrapper:first-of-type {
+    min-width: 440px;
+
+    &::before {
+      left: -79px;
+      top: 20px;
+    }
+  }
+
+  .feedback__inpunts-wrapper:first-of-type .feedback__header {
+    margin-top: 7px;
+    margin-bottom: 58px;
+    margin-right: 237px;
   }
 }
