@@ -493,4 +493,19 @@
     margin-bottom: 58px;
     margin-right: 237px;
   }
+
+  .feedback__inpunts-wrapper:nth-of-type(2) .feedback__header {
+    margin-top: 28px;
+    margin-left: 341px;
+
+    &::before {
+      left: -342px;
+      min-width: 278px;
+    }
+
+    &::after {
+      left: 339px;
+      min-width: 278px;
+    }
+  }
 }
