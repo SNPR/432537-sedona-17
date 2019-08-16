@@ -460,3 +460,9 @@
     padding: 18px 40px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .feedback__description {
+    padding: 5px 360px;
+  }
+}
