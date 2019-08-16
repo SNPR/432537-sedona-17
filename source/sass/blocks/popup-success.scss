@@ -50,3 +50,40 @@
     background-color: $main-blue-active;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .popup-success {
+    min-width: 640px;
+    min-height: 347px;
+    bottom: -30px;
+    margin-left: -320px;
+    padding-top: 50px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 140px;
+      top: 210px;
+      left: 0;
+      background-color: $main-light-gray;
+      z-index: -1;
+    }
+  }
+
+  .popup-success__header {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .popup-success__description {
+    margin-bottom: 85px;
+  }
+
+  .popup-success__button {
+    min-width: 458px;
+    font-size: 21px;
+    margin: 10px auto 0;
+    outline: none;
+  }
+}

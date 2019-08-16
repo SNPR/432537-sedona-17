@@ -47,3 +47,30 @@
     background-color: $main-blue-active;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .popup-error {
+    min-width: 400px;
+    min-height: 347px;
+    margin-left: -200px;
+    padding: 40px 50px 20px;
+  }
+
+  .popup-error__header {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    line-height: 41px;
+  }
+s
+  .popup-error__description {
+    margin-bottom: 25px;
+  }
+
+  .popup-error__button {
+    min-width: 272px;
+    min-height: 58px;
+    font-size: 21px;
+  }
+}
