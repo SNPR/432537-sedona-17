@@ -411,9 +411,21 @@
     }
   }
 
+  .feedback__inpunts-wrapper .feedback__field--checkbox {
+    min-width: 204px;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(4)
+    .feedback__field--checkbox:first-of-type {
+    margin-right: 56px;
+  }
+
+  .feedback__inpunts-wrapper:nth-of-type(4)
+    .feedback__field--checkbox:nth-of-type(3) {
+    margin-right: 56px;
+  }
+
   .feedback__inpunts-wrapper:nth-of-type(4) .feedback__field--checkbox {
-    width: 140px;
-    margin-right: 120px;
     margin-bottom: 9px;
   }
 
