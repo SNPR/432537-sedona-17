@@ -272,7 +272,7 @@
 @media (min-width: $desktop-width) {
   .photos {
     @include reset;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .photos__items {
@@ -316,7 +316,7 @@
   .photos__item--first .photos__item-image {
     width: 1200px;
   }
-  
+
   .photos__item-like-icon {
     fill: $main-light-color;
     opacity: 1;
