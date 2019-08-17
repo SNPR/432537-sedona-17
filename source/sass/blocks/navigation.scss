@@ -34,6 +34,10 @@
     background-image: url("../../img/icon-menu.svg");
     top: 15px;
   }
+
+  &--nojs {
+    display: none;
+  }
 }
 
 @media (min-width: $tablet-width) {
