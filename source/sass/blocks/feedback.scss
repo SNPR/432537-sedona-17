@@ -253,6 +253,10 @@
     color: rgba(255, 255, 255, 0.3);
     background-color: $main-blue-active;
   }
+
+  &:disabled {
+    background-color: #e5e5e5;
+  }
 }
 
 .feedback__caption {
@@ -351,7 +355,8 @@
     margin-left: 54px;
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(2) .feedback__input-text:first-of-type {
+  .feedback__inpunts-wrapper:nth-of-type(2)
+    .feedback__input-text:first-of-type {
     margin-bottom: 23px;
   }
 
@@ -412,11 +417,13 @@
     min-width: 204px;
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(4) .feedback__field--checkbox:first-of-type {
+  .feedback__inpunts-wrapper:nth-of-type(4)
+    .feedback__field--checkbox:first-of-type {
     margin-right: 56px;
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(4) .feedback__field--checkbox:nth-of-type(3) {
+  .feedback__inpunts-wrapper:nth-of-type(4)
+    .feedback__field--checkbox:nth-of-type(3) {
     margin-right: 56px;
   }
 
@@ -540,25 +547,29 @@
     }
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(2) .feedback__input-text:first-of-type {
+  .feedback__inpunts-wrapper:nth-of-type(2)
+    .feedback__input-text:first-of-type {
     margin-right: 118px;
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(2) .feedback__label-text:first-of-type {
+  .feedback__inpunts-wrapper:nth-of-type(2)
+    .feedback__label-text:first-of-type {
     &::after {
       left: 343px;
       top: -18px;
     }
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(2) .feedback__label-text:nth-of-type(2) {
+  .feedback__inpunts-wrapper:nth-of-type(2)
+    .feedback__label-text:nth-of-type(2) {
     &::after {
       left: 421px;
       top: -18px;
     }
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(2) .feedback__input-text:nth-of-type(2) {
+  .feedback__inpunts-wrapper:nth-of-type(2)
+    .feedback__input-text:nth-of-type(2) {
     height: 58px;
   }
 
@@ -586,15 +597,18 @@
     }
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(4) .feedback__field--checkbox:nth-of-type(2) {
+  .feedback__inpunts-wrapper:nth-of-type(4)
+    .feedback__field--checkbox:nth-of-type(2) {
     margin-right: 52px;
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(4) .feedback__field--checkbox:nth-of-type(3) {
+  .feedback__inpunts-wrapper:nth-of-type(4)
+    .feedback__field--checkbox:nth-of-type(3) {
     margin-right: 34px;
   }
 
-  .feedback__inpunts-wrapper:nth-of-type(4) .feedback__field--checkbox:last-of-type {
+  .feedback__inpunts-wrapper:nth-of-type(4)
+    .feedback__field--checkbox:last-of-type {
     margin-right: 0;
   }
 
