@@ -57,7 +57,8 @@
 
 .hotel-search__map {
   position: relative;
-  min-height: 350px;
+  min-width: 320px;
+  height: 350px;
   background-color: #cadfaa;
 
   background-image: url("../img/bg-map-mobile@1x.jpg");
@@ -84,6 +85,10 @@
   .hotel-search {
     margin-top: 46px;
     margin-bottom: 31px;
+  }
+
+  .hotel-search__map .hotel-search__interactive-map {
+    width: 768px;
   }
 
   .hotel-search__offer br {
@@ -120,6 +125,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .hotel-search__map .hotel-search__interactive-map {
+    width: 1200px;
+  }
+
   .hotel-search__description {
     margin-bottom: 37px;
   }
