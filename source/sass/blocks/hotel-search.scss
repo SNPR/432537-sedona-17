@@ -147,4 +147,11 @@
       left: 586px;
     }
   }
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    .hotel-search__map {
+      background-image: url("../img/bg-map-desktop@2x.jpg");
+      background-size: cover;
+    }
+  }
 }
