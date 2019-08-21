@@ -13,7 +13,7 @@
   &::after {
     position: absolute;
     content: "";
-    background-image: url("../../img/bg-intro-triangle-mobile.svg");
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
     background-size: 322px 28px;
     bottom: 0;
     left: 0;
@@ -53,7 +53,7 @@
     margin-bottom: 38px;
 
     &::after {
-      background-image: url("../../img/bg-intro-triangle-tablet.svg");
+      background-image: url("../img/bg-intro-triangle-tablet.svg");
       background-size: 768px 57px;
       width: 768px;
       height: 57px;
@@ -89,7 +89,7 @@
     background-image: url("../img/bg-back-desktop@1x.jpg");
 
     &::after {
-      background-image: url("../../img/bg-intro-triangle-desktop.svg");
+      background-image: url("../img/bg-intro-triangle-desktop.svg");
       background-size: 1200px 57px;
       width: 1200px;
       height: 57px;
