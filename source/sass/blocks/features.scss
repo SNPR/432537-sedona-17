@@ -10,7 +10,7 @@
   display: none;
 }
 
-.features .features__item:first-of-type {
+.features > .features__item {
   &::before {
     position: absolute;
     content: "";
