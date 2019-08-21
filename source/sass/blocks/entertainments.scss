@@ -6,6 +6,7 @@
   @include reset-list;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .entertainments__list .entertainments__item:nth-of-type(1) {
