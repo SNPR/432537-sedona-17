@@ -53,6 +53,7 @@
 }
 
 .photos__presentation {
+  @include reset;
   position: relative;
   margin-bottom: 133px;
 }
